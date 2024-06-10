@@ -1,0 +1,78 @@
+{
+    "openAutomatically": false,
+    "timelines": {
+        "MN BISBO": {
+            "targetFixes": [ "BISBO" ],
+            "viaFixes": [ "MUS", "NERAS" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFMN" ]
+        },
+        "MN NANAX": {
+            "targetFixes": [ "NANAX" ],
+            "viaFixes": [ "MUS", "NERAS" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFMN" ]
+        },
+        "MN LEMPU": {
+            "targetFixes": [ "LEMPU" ],
+            "viaFixes": [ "MUS", "NERAS" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFMN" ]
+        },
+        "PG 09L/08R": {
+            "targetFixes": [ "IG09L", "IG08R" ],
+            "viaFixes": [ "BANOX", "LORNI", "MOPAR", "OKIPA" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFPG" ]
+        },
+        "PG 09L/08R DCL": {
+            "targetFixes": [ "IG09L", "IG08R" ],
+            "viaFixes": [ "BANOX", "LORNI", "MOPAR", "OKIPA" ],
+            "tagLayout": "simpleLayout",
+            "destinationAirports": [ "LFPG" ]
+        },
+        "PG 26L/27R": {
+            "targetFixes": [ "IG26L", "IG27R" ],
+            "viaFixes": [ "BANOX", "LORNI", "MOBRO", "MOPAR", "OKIPA", "VEBEK" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFPG" ]
+        },
+        "PG 26L/27R DCL": {
+            "targetFixes": [ "IG26L", "IG27R" ],
+            "viaFixes": [ "BANOX", "LORNI", "MOBRO", "MOPAR", "OKIPA", "VEBEK" ],
+            "tagLayout": "simpleLayout",
+            "destinationAirports": [ "LFPG" ]
+        },
+        "PO 25": {
+            "targetFixes": ["OLW11"],
+            "viaFixes": ["MOLBA", "ODILO", "VEBEK"],
+            "tagLayout": "myLayout",
+            "destinationAirports": ["LFPO"]
+        },
+        "PO 06": {
+            "targetFixes": ["ORE14"],
+            "viaFixes": ["MOLBA", "ODILO", "VEBEK"],
+            "tagLayout": "myLayout",
+            "destinationAirports": ["LFPO"]
+        }
+    },
+    "tagLayouts": {
+        "myLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 7 },
+            { "source": "static", "defaultValue": "¤", "width": 1, "isViaFixIndicator": true },
+            { "source": "aircraftType", "width": 4 },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true },
+            { "source": "static", "width": 1 },
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "-----" },
+            { "source": "static", "width": 1 },
+            { "source": "scratchPad", "width": 4 }
+        ],
+        "simpleLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 }
+        ]
+    }
+}
