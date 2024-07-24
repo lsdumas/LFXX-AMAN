@@ -54,13 +54,25 @@
             "viaFixes": ["MOLBA", "ODILO", "VEBEK"],
             "tagLayout": "myLayout",
             "destinationAirports": ["LFPO"]
+        },
+        "ML 13L": {
+            "targetFixes": ["ZEBRA"],
+            "viaFixes": ["SALIN", "GEMKO", "LIPSU", "RISKI"],
+            "tagLayout": "myLayout",
+            "destinationAirports": ["LFML"]
+        },
+        "ML 31R": {
+            "targetFixes": ["POMEG"],
+            "viaFixes": ["SALIN", "GEMKO", "LIPSU", "DOLIV"],
+            "tagLayout": "myLayout",
+            "destinationAirports": ["LFML"]
         }
     },
     "tagLayouts": {
         "myLayout": [
             { "source": "assignedRunway", "width": 4 },
             { "source": "callsign", "width": 7 },
-            { "source": "static", "defaultValue": "¤", "width": 1, "isViaFixIndicator": true },
+            { "source": "static", "defaultValue": "ï¿½", "width": 1, "isViaFixIndicator": true },
             { "source": "aircraftType", "width": 4 },
             { "source": "aircraftWtc", "width": 2 },
             { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
