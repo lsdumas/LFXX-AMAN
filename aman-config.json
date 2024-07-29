@@ -44,28 +44,76 @@
             "destinationAirports": [ "LFPG" ]
         },
         "PO 25": {
-            "targetFixes": ["OLW11"],
-            "viaFixes": ["MOLBA", "ODILO", "VEBEK"],
+            "targetFixes": [ "OLW11" ],
+            "viaFixes": [ "MOLBA", "ODILO", "VEBEK" ],
             "tagLayout": "myLayout",
-            "destinationAirports": ["LFPO"]
+            "destinationAirports": [ "LFPO" ]
         },
         "PO 06": {
-            "targetFixes": ["ORE14"],
-            "viaFixes": ["MOLBA", "ODILO", "VEBEK"],
+            "targetFixes": [ "ORE14" ],
+            "viaFixes": [ "MOLBA", "ODILO", "VEBEK" ],
             "tagLayout": "myLayout",
-            "destinationAirports": ["LFPO"]
+            "destinationAirports": [ "LFPO" ]
         },
         "ML 13L": {
-            "targetFixes": ["ZEBRA"],
-            "viaFixes": ["SALIN", "GEMKO", "LIPSU", "RISKI"],
+            "targetFixes": [ "ZEBRA" ],
+            "viaFixes": [ "SALIN", "GEMKO", "LIPSU", "RISKI" ],
             "tagLayout": "myLayout",
-            "destinationAirports": ["LFML"]
+            "destinationAirports": [ "LFML" ]
         },
         "ML 31R": {
-            "targetFixes": ["POMEG"],
-            "viaFixes": ["SALIN", "GEMKO", "LIPSU", "DOLIV"],
+            "targetFixes": [ "POMEG" ],
+            "viaFixes": [ "SALIN", "GEMKO", "LIPSU", "DOLIV" ],
             "tagLayout": "myLayout",
-            "destinationAirports": ["LFML"]
+            "destinationAirports": [ "LFML" ]
+        },
+        "LL 17L": {
+            "targetFixes": [ "EKMEP" ],
+            "viaFixes": [ "TALAR", "RIPTU", "GOMET", "ARBON" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFLL" ]
+        },
+        "LL 35R": {
+            "targetFixes": [ "INGUV" ],
+            "viaFixes": [ "TALAR", "RIPTU", "GOMET", "ARBON" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFLL" ]
+        },
+        "BO 14R": {
+            "targetFixes": [ "IO14R" ],
+            "viaFixes": [ "AGN", "ABLIS", "ADIMO", "SURAS" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFBO" ]
+        },
+        "BO 32L": {
+            "targetFixes": [ "IO32L" ],
+            "viaFixes": [ "LAVKU", "ADIMO", "ORGIL", "SULIT", "AGENO" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFBO" ]
+        },
+        "BD 11": {
+            "targetFixes": [ "IBD11" ],
+            "viaFixes": [ "ETPAR", "VAGNA", "LIBRU", "DIRAX" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFBD" ]
+        },
+        "BO 23": {
+            "targetFixes": [ "IBD23" ],
+            "viaFixes": [ "ETPAR", "VAGNA", "LIBRU", "DIRAX" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFBD" ]
+        },
+        "BD 29": {
+            "targetFixes": [ "IBD29" ],
+            "viaFixes": [ "ETPAR", "VAGNA", "LIBRU", "DIRAX" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFBD" ]
+        },
+        "BD 05": {
+            "targetFixes": [ "ID05Z" ],
+            "viaFixes": [ "ETPAR", "VAGNA", "LIBRU", "DIRAX" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFBD" ]
         }
     },
     "tagLayouts": {
