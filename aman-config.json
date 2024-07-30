@@ -97,7 +97,7 @@
             "tagLayout": "myLayout",
             "destinationAirports": [ "LFBD" ]
         },
-        "BO 23": {
+        "BD 23": {
             "targetFixes": [ "IBD23" ],
             "viaFixes": [ "ETPAR", "VAGNA", "LIBRU", "DIRAX" ],
             "tagLayout": "myLayout",
