@@ -119,8 +119,8 @@
     "tagLayouts": {
         "myLayout": [
             { "source": "assignedRunway", "width": 4 },
-            { "source": "callsign", "width": 7 },
-            { "source": "static", "defaultValue": "ï¿½", "width": 1, "isViaFixIndicator": true },
+            { "source": "callsign", "width": 8 },
+            { "source": "static", "defaultValue": "¤", "width": 2, "isViaFixIndicator": true },
             { "source": "aircraftType", "width": 4 },
             { "source": "aircraftWtc", "width": 2 },
             { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
