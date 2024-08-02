@@ -4,7 +4,7 @@ French airports config file for the Arrival Manager plugin for Euroscope.
 |Airport|RWY|Vias|
 |:-:|:-:|:-|
 |LFMN|04L & 22R|MUS / NERAS|
-|LFPG|26L & 27R|BANOX / LORNI / OKIPA / MOPAR / VEBEK / MORBO|
+|LFPG|26L & 27R|BANOX / LORNI / OKIPA / MOPAR / VEBEK / MOBRO|
 |LFPG|09L & 08R|BANOX / LORNI / OKIPA / MOPAR|
 |LFPO|25 & 06|MOLBA / ODILO / VEBEK|
 |LFML|13L & 31R|SALIN / GEMKO / LIPSU / RISKI (13L) / DOLIV (31R)|
