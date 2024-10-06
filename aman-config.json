@@ -81,12 +81,24 @@
         },
         "BO 14R": {
             "targetFixes": [ "IO14R" ],
-            "viaFixes": [ "AGN", "ABLIS", "ADIMO", "SURAS" ],
+            "viaFixes": [ "AGN", "ABLIS", "FUZAP", "SURAS" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "LFBO" ]
         },
         "BO 32L": {
             "targetFixes": [ "IO32L" ],
+            "viaFixes": [ "LAVKU", "ADIMO", "ORGIL", "SULIT", "AGENO" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFBO" ]
+        },
+        "BO 14L": {
+            "targetFixes": [ "IO14L" ],
+            "viaFixes": [ "AGN", "ABLIS", "FUZAP", "SURAS" ],
+            "tagLayout": "myLayout",
+            "destinationAirports": [ "LFBO" ]
+        },
+        "BO 32R": {
+            "targetFixes": [ "IO32R" ],
             "viaFixes": [ "LAVKU", "ADIMO", "ORGIL", "SULIT", "AGENO" ],
             "tagLayout": "myLayout",
             "destinationAirports": [ "LFBO" ]
@@ -120,7 +132,7 @@
         "myLayout": [
             { "source": "assignedRunway", "width": 4 },
             { "source": "callsign", "width": 8 },
-            { "source": "static", "defaultValue": "§", "width": 2, "isViaFixIndicator": true },
+            { "source": "static", "defaultValue": "ù", "width": 2, "isViaFixIndicator": true },
             { "source": "aircraftType", "width": 4 },
             { "source": "aircraftWtc", "width": 2 },
             { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
